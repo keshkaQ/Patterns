@@ -1,4 +1,32 @@
 ﻿
+//class Program
+//{
+//    static void Main()
+//    {
+//        // Создаем объект получателя, который будет выполнять действия
+//        Receiver receiver = new Receiver();
+
+//        // Создаем конкретные команды с сообщениями и получателем
+//        Command command1 = new ConcreteCommand(receiver, "TV on");
+//        Command command2 = new ConcreteCommand(receiver, "Channel 2");
+//        Command command3 = new ConcreteCommand(receiver, "Sound Off");
+
+//        // Создаем объект инициатора, который будет управлять командами
+//        Invoker invoker = new Invoker();
+
+//        // Добавляем команды
+//        invoker.AddCommand(command1);
+//        invoker.AddCommand(command2);
+//        invoker.AddCommand(command3);
+
+//        // Выполняем все команды
+//        invoker.ExecuteCommands();
+
+//        // Отменяем последние две команды
+//        invoker.UndoLastCommand();
+//        invoker.UndoLastCommand();
+//    }
+//}
 //// Интерфейс команды с методами для выполнения и отмены команды
 //public interface Command
 //{
@@ -86,32 +114,5 @@
 //    }
 //}
 
-//class Program
-//{
-//    static void Main()
-//    {
-//        // Создаем объект получателя, который будет выполнять действия
-//        Receiver receiver = new Receiver();
 
-//        // Создаем конкретные команды с сообщениями и получателем
-//        Command command1 = new ConcreteCommand(receiver, "TV on");
-//        Command command2 = new ConcreteCommand(receiver, "Channel 2");
-//        Command command3 = new ConcreteCommand(receiver, "Sound Off");
-
-//        // Создаем объект инициатора, который будет управлять командами
-//        Invoker invoker = new Invoker();
-
-//        // Добавляем команды
-//        invoker.AddCommand(command1);
-//        invoker.AddCommand(command2);
-//        invoker.AddCommand(command3);
-
-//        // Выполняем все команды
-//        invoker.ExecuteCommands();
-
-//        // Отменяем последние две команды
-//        invoker.UndoLastCommand();
-//        invoker.UndoLastCommand();
-//    }
-//}
 
